@@ -1,6 +1,6 @@
 # Quantitative Strategy Repository
 
-Welcome to the Quantitative Strategy Repository! This repository contains various quantitative strategies and their implementations, with a particular focus on mean-variance optimization and long-short equity strategies. This repository is currently a work in progress, and I am continuously updating it with deeper research and new strategies.
+Welcome to the Quantitative Strategy Repository! This repository contains various quantitative strategies and their implementations, with a particular focus on mean-variance optimization and long-short equity strategies. This repository is currently a work in progress, and I am continuously updating/editing it to improve the clarity with deeper research and new strategies
 
 ## Table of Contents
 
