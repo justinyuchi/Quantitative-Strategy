@@ -19,6 +19,8 @@ This project involves the implementation of mean-variance optimization, a founda
 This project explores long-short equity strategies, including the formation and backtesting of over 10 different strategies across historical data. Key aspects of this research include:
 - **Factor Combination**: Mixing different signals for strategy formation to enhance performance and robustness.
 - **Machine Learning/Deep Learning Methodology**: Incorporating advanced machine learning and deep learning techniques to develop and improve long-short strategies.
+- **Signal Robustness Analysis**: Analyzing the robustness of signals, which may affect portfolio turnover.
+- **Visualization**: Providing visualizations to illustrate the performance and characteristics of the strategies.
 
 **Note:** Individual files for each strategy will be uploaded in the future to enhance clarity and organization.
 
