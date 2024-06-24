@@ -12,7 +12,7 @@ Welcome to the Quantitative Strategy Repository! This repository contains variou
 
 ## Projects
 
-### Mean-Variance Optimization and Backtesting
+### [Mean-Variance Optimization and Backtesting] (./Portfolio_Optimization.ipynb)
 This project involves the implementation of mean-variance optimization, a foundational concept in modern portfolio theory. It includes backtesting to evaluate the performance of the optimized portfolios over historical data.
 
 ### Long-Short Strategy Research
