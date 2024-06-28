@@ -59,10 +59,14 @@ The momentum signal is generated using returns from the -12 to -2 month period, 
 *This graph depicts the historical persistence rates for the top and bottom deciles to assess whether the signal's strength varies with economic conditions. For momentum, the persistence rate tends to drop during economic downturns, highlighting potential vulnerabilities.*
 
 ## About Me
-[Provide details about yourself, your background, and your interest in quantitative finance.]
+I am a Master's student in Quantitative Finance with dual bachelor's degrees in Science and Business Administration. My academic focus includes artificial intelligence, statistics, and finance. Most of the projects in this repository are related to the application of machine learning and deep learning in Quantitative Finance, although some are dedicated to exploring the methodologies themselves. Visit my [personal website](https://justinyuchi.github.io/justinyuchihsu.github.io/) for more about my work and interests.
+
 
 ## License
-[Provide the licensing information for the repository.]
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Disclaimer
-[Include any disclaimers regarding the use of the information and strategies in this repository.]
+Disclaimer
+The information provided in this repository is for educational and informational purposes only. It is not intended to be investment advice, and you should not rely on it as such. The strategies and analyses presented are based on historical data and hypothetical performance, which have inherent limitations. Past performance is not indicative of future results.
+
+For the full disclaimer, please refer to the [DISCLAIMER][DISCLAIMER.md] file.
