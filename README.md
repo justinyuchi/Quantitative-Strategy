@@ -38,17 +38,17 @@ The momentum signal is generated using returns from the -12 to -2 month period, 
 ![Strategy Statistics](/momentum_illustration_graphs/strategy_statistics.png)
 *Description: The left-hand side table exhibits the statistics of this strategy. The mean return (monthly) of this strategy is 1.03%. It also shows that even a simple momentum strategy has an annualized Sharpe ratio of 0.8. The t-statistic of 5.88 indicates that this strategy has returns statistically significant from 0.*
 
-*At the right-hand side, it showcases the statistics for each decile portfolio. Q10 is the portfolio of stocks with the top 10% momentum, rebalanced monthly, and Q1 is the portfolio of stocks with the bottom 10% momentum, rebalanced monthly. As the decile increases, the mean return consistently increases from 0.6% (monthly) for the bottom decile to 1.6% (monthly) for the top decile. Note: 'count' refers to the sample size, 635 months of U.S. stock data.*
+*On the right-hand side, it showcases the statistics for each decile portfolio. Q10 is the portfolio of stocks with the top 10% momentum, rebalanced monthly, and Q1 is the portfolio of stocks with the bottom 10% momentum, rebalanced monthly. As the decile increases, the mean return consistently increases from 0.6% (monthly) for the bottom decile to 1.6% (monthly) for the top decile. Note: 'count' refers to the sample size, 635 months of U.S. stock data.*
 
 *The long/short strategy here involves longing the top decile and shorting the bottom decile.*
 
 #### Performance During Recession and Non-Recession Periods
 ![Performance During Recession and Non-Recession Periods](/momentum_illustration_graphs/performance_periods.png)
-*Description: This table examines the strategy's performance during recession and non-recession periods. The first column shows the specific date range, 'count' is the sample size (months) during that period, and all statistics are calculated using monthly data. For example, during 1971-01 to 1973-10, the momentum strategy had a mean monthly return of 2.29% and an annualized Sharpe ratio of 1.46. The statistics starting from 'α' show the results of regressing the strategy's return on market excess return, indicating alpha, the p-value of alpha, market beta, the p-value of market beta, and the R-squared of the regression.*
+*Description: This table examines the strategy's performance during the recession and non-recession periods. The first column shows the specific date range, 'count' is the sample size (months) during that period, and all statistics are calculated using monthly data. For example, from 1971-01 to 1973-10, the momentum strategy had a mean monthly return of 2.29% and an annualized Sharpe ratio of 1.46. The statistics starting from 'α' show the results of regressing the strategy's return on market excess return, indicating alpha, the p-value of alpha, market beta, the p-value of market beta, and the R-squared of the regression.*
 
-*Higher alpha indicates a better strategy, and a lower p-value signifies the statistical significance of the alpha. Market beta refers to the strategy's sensitivity to market movements. For instance, during 1971-01 to 1973-10, if the market dropped by 1%, the strategy's average return would be 0.76%. The max drawdown represents the maximum cumulative loss during that period (9.98% for this instance).*
+*Higher alpha indicates a better strategy and a lower p-value signifies the statistical significance of the alpha. Market beta refers to the strategy's sensitivity to market movements. For instance, from 1971-01 to 1973-10, if the market dropped by 1%, the strategy's average return would be 0.76%. The max drawdown represents the maximum cumulative loss during that period (9.98% for this instance).*
 
-*This method allows us to examine how the strategy performs across different time periods.*
+*This method allows us to examine how the strategy performs across different periods.*
 
 
 
@@ -63,7 +63,7 @@ The momentum signal is generated using returns from the -12 to -2 month period, 
 
 #### Performance of Each Portfolio ($1 Invested)
 ![Performance of Each Portfolio ($1 Invested)](/momentum_illustration_graphs/decile_performance.png)
-*This graph demonstrates whether the decile portfolios diverge over different time periods. A robust strategy should exhibit significant divergence in the performance of each decile portfolio, indicating that the signal or feature used has consistent predictive power. Note that we are long on the top decile and short on the bottom decile. The momentum signal and strategy rebalancing are updated monthly.*
+*This graph demonstrates whether the decile portfolios diverge over different periods. A robust strategy should exhibit significant divergence in the performance of each decile portfolio, indicating that the signal or feature used has consistent predictive power. Note that we are long on the top decile and short on the bottom decile. The momentum signal and strategy rebalancing are updated monthly.*
 
 #### Transition Matrix of Rankings
 ![Transition Matrix of Rankings (1 Month)](/momentum_illustration_graphs/transition_matrix.png)
