@@ -55,7 +55,7 @@ The momentum signal is generated using returns from the -12 to -2 month period, 
 *The left graph shows the historical average persistence rate of each decile portfolio across calendar months to examine if the signal's strength varies by month. The high persistence rate for the top and bottom portfolios indicates lower turnover and transaction costs. The right graph plots the expected persistence rate based on the transition matrix, showing the probability of a stock remaining in the same decile ranking after a certain number of months.*
 
 #### Historical Signal Persistence Rate (Momentum)
-![Historical Signal Persistence Rate (momentum)](/momentum_illustration_graph/historical_signal_persistance_rate.png)
+![Historical Signal Persistence Rate (momentum)](/momentum_illustration_graph/historical_persistance_rate.png)
 *This graph depicts the historical persistence rates for the top and bottom deciles to assess whether the signal's strength varies with economic conditions. For momentum, the persistence rate tends to drop during economic downturns, highlighting potential vulnerabilities.*
 
 ## About Me
