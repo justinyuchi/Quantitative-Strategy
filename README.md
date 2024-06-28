@@ -35,29 +35,27 @@ For this momentum strategy, I excluded stocks with a P/E ratio less than 5 to av
 The momentum signal is generated using returns from the -12 to -2 month period, excluding the -1 month return to avoid the short-term reversal effect, as identified by Jegadeesh (1989).
 
 #### Factor's Return (Momentum)
-![Factor's Return (momentum)](/mnt/data/file-SfxfHIv6IIhaKCA9eJuqcs7y.png)
+![Factor's Return (momentum)](/momentum_illustration_graphs/factor_return.png)
 *Note: Grey areas represent recession periods.*
 
 #### Factor's Holding Period Return
-![Factor's Holding Period Return](/mnt/data/file-9IOyL3O3uc0e0309BKvtF7DP.png)
+![Factor's Holding Period Return](/momentum_illustration_graphs/factor_hpr.png)
 *The blue line represents the holding period return since 3 months prior, while the orange line represents the holding period return since 1 year prior.*
 
 #### Performance of Each Portfolio ($1 Invested)
-![Performance of Each Portfolio ($1 Invested)](/mnt/data/file-KNKi09IQuIu0QhcmUrcZuOca.png)
+![Performance of Each Portfolio ($1 Invested)](/momentum_illustration_graphs/decile_performance.png)
 *This graph demonstrates whether the decile portfolios diverge over different time periods. A robust strategy should exhibit significant divergence in the performance of each decile portfolio, indicating that the signal or feature used has consistent predictive power. Note that we are long on the top decile and short on the bottom decile. The momentum signal and strategy rebalancing are updated monthly.*
 
 #### Transition Matrix of Rankings
-![Transition Matrix of Rankings (1 Month)](/mnt/data/file-qD90qTk0Qtl2o9euRK506Wb7.png)
-![Transition Matrix of Rankings (3 Month)](/mnt/data/file-sSeehadH3Q38onKyqff6TR0e.png)
-![Transition Matrix of Rankings (6 Month)](/mnt/data/file-BitbjSJnpwuugAlVabxHPiY2.png)
+![Transition Matrix of Rankings (1 Month)](/momentum_illustration_graphs/transition_matrix.png)
 *These graphs illustrate the transition matrices for rankings 1 month, 3 months, and 6 months prior. A strong signal should display higher brightness along the diagonal, indicating stability in rankings and consequently lower turnover and transaction costs.*
 
 #### Signal Robustness and Decay (Momentum)
-![Signal Robustness (momentum)](/mnt/data/file-YON1N96AlRflL5chNDkbRynG.png)
+![Signal Robustness (momentum)](/momentum_illustration_graphs/signal_robustness.png)
 *The left graph shows the historical average persistence rate of each decile portfolio across calendar months to examine if the signal's strength varies by month. The high persistence rate for the top and bottom portfolios indicates lower turnover and transaction costs. The right graph plots the expected persistence rate based on the transition matrix, showing the probability of a stock remaining in the same decile ranking after a certain number of months.*
 
 #### Historical Signal Persistence Rate (Momentum)
-![Historical Signal Persistence Rate (momentum)](/mnt/data/file-YON1N96AlRflL5chNDkbRynG.png)
+![Historical Signal Persistence Rate (momentum)](/momentum_illustration_graph/historical_signal_persistance_rate.png)
 *This graph depicts the historical persistence rates for the top and bottom deciles to assess whether the signal's strength varies with economic conditions. For momentum, the persistence rate tends to drop during economic downturns, highlighting potential vulnerabilities.*
 
 ## About Me
