@@ -69,4 +69,4 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 Disclaimer
 The information provided in this repository is for educational and informational purposes only. It is not intended to be investment advice, and you should not rely on it as such. The strategies and analyses presented are based on historical data and hypothetical performance, which have inherent limitations. Past performance is not indicative of future results.
 
-For the full disclaimer, please refer to the DISCLAIMER.md file.
+For the full disclaimer, please refer to the [DISCLAIMER.md](./DISCLAIMER.md) file.
