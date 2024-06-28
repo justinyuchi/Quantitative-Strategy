@@ -18,7 +18,7 @@ Welcome to the Quantitative Strategy Repository! This repository contains variou
 This project involves the implementation of mean-variance optimization, a foundational concept in modern portfolio theory. It includes backtesting to evaluate the performance of the optimized portfolios over historical data.
 
 The following graph displays the algorithm's decisions regarding portfolio weights over time.
-![mvo](/mvo_illustration_graphs/weights_across_time.jpg)
+![mvo](/mvo_illustration_graphs/weights_across_time.png)
 
 ### [Long-Short Strategy Research](./Strategy_Factors_Formation.ipynb)
 This project explores long-short equity strategies, including the formation and backtesting of over 10 different strategies across historical data. Key aspects of this research include:
