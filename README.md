@@ -46,7 +46,7 @@ The momentum signal is generated using returns from the -12 to -2 month period, 
 ![Performance During Recession and Non-Recession Periods](/momentum_illustration_graphs/performance_periods.png)
 *Description: This table examines the strategy's performance during recession and non-recession periods. The first column shows the specific date range, 'count' is the sample size (months) during that period, and all statistics are calculated using monthly data. For example, during 1971-01 to 1973-10, the momentum strategy had a mean monthly return of 2.29% and an annualized Sharpe ratio of 1.46. The statistics starting from 'α' show the results of regressing the strategy's return on market excess return, indicating alpha, the p-value of alpha, market beta, the p-value of market beta, and the R-squared of the regression.*
 
-*Higher alpha indicates a better strategy, and a lower p-value signifies the statistical significance of the alpha. Market beta refers to the strategy's sensitivity to market movements. For instance, during 1971-01 to 1973-10, if the market dropped by 1%, the strategy's average return would be -0.76%. The max drawdown represents the maximum cumulative loss during that period.*
+*Higher alpha indicates a better strategy, and a lower p-value signifies the statistical significance of the alpha. Market beta refers to the strategy's sensitivity to market movements. For instance, during 1971-01 to 1973-10, if the market dropped by 1%, the strategy's average return would be 0.76%. The max drawdown represents the maximum cumulative loss during that period (9.98% for this instance).*
 
 *This method allows us to examine how the strategy performs across different time periods.*
 
